@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="menuPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pert.Controller">
+   <children>
+      <Label layoutX="61.0" layoutY="74.0" text="Critical Path :" />
+      <Label layoutX="61.0" layoutY="118.0" text="Critical Time : " />
+      <Label layoutX="63.0" layoutY="190.0" text="Z Value : " />
+      <Label layoutX="63.0" layoutY="234.0" text="Probability : " />
+      <TextField id="criticalpath" layoutX="165.0" layoutY="69.0" prefHeight="31.0" prefWidth="288.0" />
+      <TextField id="criticaltime" layoutX="165.0" layoutY="113.0" prefHeight="31.0" prefWidth="288.0" />
+      <TextField id="zvalue" layoutX="165.0" layoutY="187.0" prefHeight="31.0" prefWidth="288.0" />
+      <TextField id="probability" layoutX="165.0" layoutY="229.0" prefHeight="31.0" prefWidth="288.0" />
+      <Label layoutX="55.0" layoutY="153.0" text="Desired Time : " />
+      <TextField layoutX="165.0" layoutY="148.0" prefHeight="31.0" prefWidth="288.0"  id="desiredtime"/>
+      
+   </children>
+</AnchorPane>
