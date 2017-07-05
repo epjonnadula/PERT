@@ -33,7 +33,7 @@ public class Controller {
         int result = fileChooser.showOpenDialog(fileChooser);
         if (result == JFileChooser.APPROVE_OPTION) {
             File selectedFile = fileChooser.getSelectedFile();
-           path=selectedFile.getAbsolutePath();
+            path=selectedFile.getAbsolutePath();
 
         }
         pathinput.setText(path);
